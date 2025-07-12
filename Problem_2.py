@@ -37,10 +37,12 @@ b) left.right child == right.left child
 Base case: If both left and right subtrees are empty, return True
            If either left or right subtrees are empty, return False
            If both left and right subtree exist but the left root val does not match with right root val, return False
+https://youtu.be/m-nRJLGD96k?t=259
 Time: O(N), Space: O(H) (space is due to recursion stack)
 
 
 3. Iterative using queue: Perform a level order traversal. For each level, check if the node values satify the palindrome property.
+https://youtu.be/m-nRJLGD96k?t=1713
 Time: O(N), Space: O(D) (D = diameter of the tree)
 '''
 from collections import deque
