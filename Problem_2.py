@@ -184,7 +184,7 @@ def is_symmetric_v3(root):
         left = q.popleft()
         right = q.popleft()
         if not left and not right: # both None
-            return True
+            continue
         if not left or not right: # one of them is None
             return False
         # At this point, both left and right are not None
